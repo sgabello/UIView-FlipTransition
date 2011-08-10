@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653B4DB013F2F04D00BAA2E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653B4DAF13F2F04D00BAA2E8 /* UIKit.framework */; };
+		653B4DB213F2F04D00BAA2E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653B4DB113F2F04D00BAA2E8 /* Foundation.framework */; };
+		653B4DB413F2F04D00BAA2E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653B4DB313F2F04D00BAA2E8 /* CoreGraphics.framework */; };
+		653B4DBA13F2F04D00BAA2E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 653B4DB813F2F04D00BAA2E8 /* InfoPlist.strings */; };
+		653B4DBC13F2F04D00BAA2E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 653B4DBB13F2F04D00BAA2E8 /* main.m */; };
+		653B4DC013F2F04D00BAA2E8 /* FlipTransitionDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 653B4DBF13F2F04D00BAA2E8 /* FlipTransitionDemoAppDelegate.m */; };
+		653B4DC313F2F04D00BAA2E8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653B4DC113F2F04D00BAA2E8 /* MainWindow.xib */; };
+		653B4DC613F2F04D00BAA2E8 /* FlipTransitionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653B4DC513F2F04D00BAA2E8 /* FlipTransitionDemoViewController.m */; };
+		653B4DC913F2F04D00BAA2E8 /* FlipTransitionDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653B4DC713F2F04D00BAA2E8 /* FlipTransitionDemoViewController.xib */; };
+		65A30BD513F2F0EF008DD107 /* UIView+FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A30BD413F2F0EF008DD107 /* UIView+FlipTransition.m */; };
+		65A30BDC13F2F3F8008DD107 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A30BDB13F2F3F8008DD107 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		653B4DAB13F2F04C00BAA2E8 /* FlipTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653B4DAF13F2F04D00BAA2E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		653B4DB113F2F04D00BAA2E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		653B4DB313F2F04D00BAA2E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		653B4DB713F2F04D00BAA2E8 /* FlipTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipTransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		653B4DB913F2F04D00BAA2E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		653B4DBB13F2F04D00BAA2E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		653B4DBD13F2F04D00BAA2E8 /* FlipTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		653B4DBE13F2F04D00BAA2E8 /* FlipTransitionDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipTransitionDemoAppDelegate.h; sourceTree = "<group>"; };
+		653B4DBF13F2F04D00BAA2E8 /* FlipTransitionDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipTransitionDemoAppDelegate.m; sourceTree = "<group>"; };
+		653B4DC213F2F04D00BAA2E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		653B4DC413F2F04D00BAA2E8 /* FlipTransitionDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipTransitionDemoViewController.h; sourceTree = "<group>"; };
+		653B4DC513F2F04D00BAA2E8 /* FlipTransitionDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipTransitionDemoViewController.m; sourceTree = "<group>"; };
+		653B4DC813F2F04D00BAA2E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipTransitionDemoViewController.xib; sourceTree = "<group>"; };
+		65A30BD313F2F0EF008DD107 /* UIView+FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FlipTransition.h"; sourceTree = "<group>"; };
+		65A30BD413F2F0EF008DD107 /* UIView+FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FlipTransition.m"; sourceTree = "<group>"; };
+		65A30BDB13F2F3F8008DD107 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653B4DA813F2F04C00BAA2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A30BDC13F2F3F8008DD107 /* QuartzCore.framework in Frameworks */,
+				653B4DB013F2F04D00BAA2E8 /* UIKit.framework in Frameworks */,
+				653B4DB213F2F04D00BAA2E8 /* Foundation.framework in Frameworks */,
+				653B4DB413F2F04D00BAA2E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		653B4DA013F2F04C00BAA2E8 = {
+			isa = PBXGroup;
+			children = (
+				65A30BD213F2F0EF008DD107 /* UIView+FlipTransition */,
+				653B4DB513F2F04D00BAA2E8 /* FlipTransitionDemo */,
+				653B4DAE13F2F04D00BAA2E8 /* Frameworks */,
+				653B4DAC13F2F04C00BAA2E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		653B4DAC13F2F04C00BAA2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653B4DAB13F2F04C00BAA2E8 /* FlipTransitionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653B4DAE13F2F04D00BAA2E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A30BDB13F2F3F8008DD107 /* QuartzCore.framework */,
+				653B4DAF13F2F04D00BAA2E8 /* UIKit.framework */,
+				653B4DB113F2F04D00BAA2E8 /* Foundation.framework */,
+				653B4DB313F2F04D00BAA2E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		653B4DB513F2F04D00BAA2E8 /* FlipTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				653B4DBE13F2F04D00BAA2E8 /* FlipTransitionDemoAppDelegate.h */,
+				653B4DBF13F2F04D00BAA2E8 /* FlipTransitionDemoAppDelegate.m */,
+				653B4DC113F2F04D00BAA2E8 /* MainWindow.xib */,
+				653B4DC413F2F04D00BAA2E8 /* FlipTransitionDemoViewController.h */,
+				653B4DC513F2F04D00BAA2E8 /* FlipTransitionDemoViewController.m */,
+				653B4DC713F2F04D00BAA2E8 /* FlipTransitionDemoViewController.xib */,
+				653B4DB613F2F04D00BAA2E8 /* Supporting Files */,
+			);
+			path = FlipTransitionDemo;
+			sourceTree = "<group>";
+		};
+		653B4DB613F2F04D00BAA2E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				653B4DB713F2F04D00BAA2E8 /* FlipTransitionDemo-Info.plist */,
+				653B4DB813F2F04D00BAA2E8 /* InfoPlist.strings */,
+				653B4DBB13F2F04D00BAA2E8 /* main.m */,
+				653B4DBD13F2F04D00BAA2E8 /* FlipTransitionDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A30BD213F2F0EF008DD107 /* UIView+FlipTransition */ = {
+			isa = PBXGroup;
+			children = (
+				65A30BD313F2F0EF008DD107 /* UIView+FlipTransition.h */,
+				65A30BD413F2F0EF008DD107 /* UIView+FlipTransition.m */,
+			);
+			name = "UIView+FlipTransition";
+			path = "../UIView+FlipTransition";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653B4DAA13F2F04C00BAA2E8 /* FlipTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653B4DCC13F2F04D00BAA2E8 /* Build configuration list for PBXNativeTarget "FlipTransitionDemo" */;
+			buildPhases = (
+				653B4DA713F2F04C00BAA2E8 /* Sources */,
+				653B4DA813F2F04C00BAA2E8 /* Frameworks */,
+				653B4DA913F2F04C00BAA2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipTransitionDemo;
+			productName = FlipTransitionDemo;
+			productReference = 653B4DAB13F2F04C00BAA2E8 /* FlipTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653B4DA213F2F04C00BAA2E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixelinlove ltd";
+			};
+			buildConfigurationList = 653B4DA513F2F04C00BAA2E8 /* Build configuration list for PBXProject "FlipTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 653B4DA013F2F04C00BAA2E8;
+			productRefGroup = 653B4DAC13F2F04C00BAA2E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653B4DAA13F2F04C00BAA2E8 /* FlipTransitionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653B4DA913F2F04C00BAA2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653B4DBA13F2F04D00BAA2E8 /* InfoPlist.strings in Resources */,
+				653B4DC313F2F04D00BAA2E8 /* MainWindow.xib in Resources */,
+				653B4DC913F2F04D00BAA2E8 /* FlipTransitionDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653B4DA713F2F04C00BAA2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653B4DBC13F2F04D00BAA2E8 /* main.m in Sources */,
+				653B4DC013F2F04D00BAA2E8 /* FlipTransitionDemoAppDelegate.m in Sources */,
+				653B4DC613F2F04D00BAA2E8 /* FlipTransitionDemoViewController.m in Sources */,
+				65A30BD513F2F0EF008DD107 /* UIView+FlipTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		653B4DB813F2F04D00BAA2E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653B4DB913F2F04D00BAA2E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		653B4DC113F2F04D00BAA2E8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653B4DC213F2F04D00BAA2E8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		653B4DC713F2F04D00BAA2E8 /* FlipTransitionDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653B4DC813F2F04D00BAA2E8 /* en */,
+			);
+			name = FlipTransitionDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		653B4DCA13F2F04D00BAA2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		653B4DCB13F2F04D00BAA2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653B4DCD13F2F04D00BAA2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipTransitionDemo/FlipTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlipTransitionDemo/FlipTransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		653B4DCE13F2F04D00BAA2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipTransitionDemo/FlipTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlipTransitionDemo/FlipTransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653B4DA513F2F04C00BAA2E8 /* Build configuration list for PBXProject "FlipTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653B4DCA13F2F04D00BAA2E8 /* Debug */,
+				653B4DCB13F2F04D00BAA2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653B4DCC13F2F04D00BAA2E8 /* Build configuration list for PBXNativeTarget "FlipTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653B4DCD13F2F04D00BAA2E8 /* Debug */,
+				653B4DCE13F2F04D00BAA2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653B4DA213F2F04C00BAA2E8 /* Project object */;
+}
