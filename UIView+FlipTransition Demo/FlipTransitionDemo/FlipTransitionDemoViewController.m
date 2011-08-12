@@ -48,7 +48,7 @@
 {   
     if (recognizer.state == UIGestureRecognizerStateEnded)
     {
-        [UIView flipTransitionFromView:firstView toView:secondView duration:1.0f];
+        [UIView flipTransitionFromView:firstView toView:secondView duration:1.0f completion:NULL];
     }
 }
 

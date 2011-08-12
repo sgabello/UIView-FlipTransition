@@ -10,7 +10,7 @@
 
 @implementation UIView (UIView_FlipTransition)
 
-+ (void)flipTransitionFromView:(UIView *)firstView toView:(UIView *)secondView duration:(float)aDuration
++ (void)flipTransitionFromView:(UIView *)firstView toView:(UIView *)secondView duration:(float)aDuration completion:(void (^)(BOOL finished))completion
 {
 	firstView.layer.doubleSided = NO;
 	secondView.layer.doubleSided = NO;
@@ -55,6 +55,8 @@
                      completion:^(BOOL finished) {
 						 firstView.hidden = firstViewWillHide;
 						 secondView.hidden = !firstView.hidden;
+						 if (completion)
+							 completion(finished);
 					 }];
 }
 

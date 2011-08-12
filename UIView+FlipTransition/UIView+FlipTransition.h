@@ -11,6 +11,6 @@
 
 @interface UIView (UIView_FlipTransition)
 
-+ (void)flipTransitionFromView:(UIView *)firstView toView:(UIView *)secondView duration:(float)aDuration;
++ (void)flipTransitionFromView:(UIView *)firstView toView:(UIView *)secondView duration:(float)aDuration completion:(void (^)(BOOL finished))completion;
 
 @end
