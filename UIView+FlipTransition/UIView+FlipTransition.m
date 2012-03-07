@@ -63,4 +63,8 @@
 					 }];
 }
 
+-(void) resetTransformation {
+    self.layer.transform = CATransform3DIdentity;
+}
+
 @end
